@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.electricvehicle">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ev"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ev"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".types.Etron"/>
+        <activity android:name=".types.I3"/>
+        <activity android:name=".types.BYD"/>
+        <activity android:name=".types.CZero"/>
+        <activity android:name=".types.F500e"/>
+        <activity android:name=".types.Fit"/>
+        <activity android:name=".types.Focus"/>
+        <activity android:name=".types.ModelX"/>
+        <activity android:name=".types.Zinoro"/>
+        <activity android:name=".types.Bolt"/>
+        <activity android:name=".About"/>
+    </application>
+
+</manifest>
